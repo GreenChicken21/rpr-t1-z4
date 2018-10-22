@@ -7,7 +7,7 @@ import static java.lang.System.exit;
 public class Predmet {
 
     public int brojStudenata = 0;
-    private Student studenti[];
+    public Student studenti[];
     private String imePredmeta;
     private String sifraPredmeta;
     final int maxBrojStrudenata;
