@@ -56,8 +56,6 @@ public class Predmet {
             if(s.getBrojIndexa() == studenti[i].getBrojIndexa()){
                 for(int j = i; j < brojStudenata -1; j++)
                     studenti[j] = studenti[j+1];
-
-
                 brojStudenata--;
                 studenti[brojStudenata] = null;
                 i = brojStudenata;
